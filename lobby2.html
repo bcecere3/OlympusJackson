@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Starter Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="pageWrapper">
+    <a href="index.html" class="reset" onclick="resetAll()">Restart</a>
+    <div class="itemContainer">
+        <a href="javascript:void(0)" class="itemToggle"><span class="green-text no-margin">Inventory</span></a>
+        <ul class="itemList"></ul>
+    </div>
+    <div class="contentWrapper">
+        <h3 class="green-text no-margin"><b>The Lobby: Second Floor</b>  </h3>
+        <p class="green-text margin-5">As you ascend the stairs to the second floor of the lobby, you see a large assortment of what appear to be burial urns, possibly lending to some kind of religious symbolism?
+            Looking over the balcony to the floor below, you can just barely discern the letters “C...O...C…” made out by what floor tiles remain. You can’t possible guess what the rest of the letters could be.
+        </p>
+
+        <br>
+        <h5 class="green-text" id="objInt"><b>Object(s) of Interest:</b></h5>
+        <div class="objContainer">
+            <a href="javascript:void(0)" class="togglePip"><span class="green-text no-margin">Art Coke “Urn”</span><span class="scanBtn green-text">Scan</span></a>
+        </div>
+        <p></p>
+
+        <div class="nav">
+            <p class="green-text margin-5" id="lobby2DT">There are three paths before you, an entrance on the south wall leading to some kind of historical archive, a doorway on the north wall that leads to an unknown location, and the crumbling walkway that leads to another part of the floor.</p>
+            <ul>
+                <li><a href="lab.html" class="white-text btn custom">Entrance to unknown area</a></li>
+                <li><a href="javascript:void(0)" class="white-text btn custom" id="hist">Entrance to historical area</a></li>
+                <li><a href="theater.html" class="white-text btn custom" id="walkway">Use Rope to swing across Crumbling Walkway</a></li>
+                <li><a href="lobby1.html" class="white-text btn custom">Stairway down to First Floor</a></li>
+            </ul>
+        </div>
+    </div><!--contentContainer-->
+
+    <div class="pipContainer">
+        <img src="https://i.imgur.com/OePmvyL.png" width="600px" height="400px" class="pipBG">
+        <a href="javascript:void(0)" class="closePip"><span class="green-text">Close [X]</span></a>
+        <div class="contentContainer">
+            <h3 class="green-text no-margin pipTitle">Art Coke “Urn”</h3>
+            <div class="leftCol">
+                <!--<img src="https://i.imgur.com/LmNityQ.png" width="75%">-->
+                <img src="img/urn.png" width="85%">
+            </div>
+            <div class="rightCol">
+                <p class="green-text no-margin pipText">These burial urns were used to store the remains of the loyal polar bears who guarded this fortress. The carvings paintings on the urns indicate the bears’ preferred food. As you can see, most of them preferred the sacred nectar as their sustenance, but that one appears to have liked eating…</p>
+            </div>
+            <br class="show">
+            <a href="javascript:void(0)" class="addUrn"><span class="green-text">Pick Up Urn</span></a>
+        </div>
+    </div><!--pipContainer-->
+
+</div><!--pageWrapper-->
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/myJs.js"></script>
+</body>
+</html>

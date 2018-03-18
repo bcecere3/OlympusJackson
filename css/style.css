@@ -1,0 +1,161 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+p{
+    font-size: 16px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.green-text{
+    color: #66de7a;
+}
+br.show{
+    display: initial;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.margin-5{
+    margin: 5px !important;
+}
+.pageWrapper{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.contentWrapper{
+    padding: 75px;
+}
+body{
+    max-height: 100vh;
+    margin: 0 !important;
+    overflow: hidden;
+    background: url('https://i.imgur.com/CfYRu9a.png');
+    background-size: 100% 100%;
+}
+#passages{
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+.pipContainer{
+    position: absolute;
+    right: 0;
+    bottom: -400px;
+    width: 600px;
+    height: 400px;
+}
+.pipBG{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+a.link-external{
+    text-decoration: none;
+}
+a.link-external:after{
+    display: none;
+}
+.itemContainer{
+    position: absolute;
+    top: 0;
+    right: 75px;
+    width: 200px;
+}
+.itemContainer > a{
+    padding: 10px 20px;
+    border: 2px solid #66de7a;
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.itemList{
+    margin: 0 !important;
+    margin-top: 62px !important;
+    padding-left: 0 !important;
+}
+.itemList > li{
+    list-style: none;
+    padding: 5px 10px;
+    border: 1px solid #66de7a;
+    background-color: black;
+}
+.scanBtn{
+    display: none;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border: 1px solid #66de7a;
+    transition: 0.3s ease all;
+}
+.contentContainer{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 410px;
+    height: 258px;
+    overflow: auto;
+}
+.leftCol, .rightCol{
+    width: 50%;
+    float: left;
+    margin-bottom: 25px;
+}
+p.pipText{
+    font-size: 14px;
+    line-height: 19px;
+    padding-right: 10px;
+}
+.addPolar, .addUrn, .addBev, .useEye, .enterCode, .ropeSwing, .breakSafe{
+    padding: 10px 15px;
+    border: 1px solid #66de7a;
+    margin: 0 auto !important;
+    display: table;
+}
+.btn.custom{
+    border: 1px solid rgba(255,255,255,0.54);
+    background-color: transparent;
+    line-height: 35px !important;
+    margin-bottom: 15px;
+}
+.pipTitle{
+    border-bottom: 2px solid;
+    margin-bottom: 20px !important;
+    width: 95%;
+}
+.closePip{
+    position: absolute;
+    top: -19px;
+    right: 49px;
+}
+#objInt{
+    margin-bottom: 5px !important;
+}
+.link-internal{
+    color: white;
+    font-weight: 600;
+}
+.nav{
+    margin-top: 100px;
+}
+.togglePip > span{
+    font-size: 18px;
+}
+.objContainer > .togglePip{
+    margin-top: 20px !important;
+    margin-left: 15px;
+    display: block;
+}
+.reset{
+    position: absolute;
+    top: 0;
+    left: 75px;
+    padding: 5px 15px;
+    color: #66de7a;
+}

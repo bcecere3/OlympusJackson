@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Starter Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="pageWrapper">
+    <a href="index.html" class="reset" onclick="resetAll()">Restart</a>
+    <div class="itemContainer">
+        <a href="javascript:void(0)" class="itemToggle"><span class="green-text no-margin">Inventory</span></a>
+        <ul class="itemList"></ul>
+    </div>
+    <div class="contentWrapper">
+        <h3 class="green-text no-margin"><b>Vault Hall</b></h3>
+        <p class="green-text margin-5">Finally you’ve made it. You find yourself in the Hall of the Vault, a name you just came up with, but you’re pretty sure it will sound good in your memoir. Before you lies the security door that leads to the Vault Room. Behind you, the hallway extends into the darkness, where it might lead, you don’t know. Perhaps there will be time to explore once you have the formula safely in hand.
+        </p>
+        <br>
+        <br>
+        <h5 class="green-text" id="objInt"><b>Object(s) of Interest:</b></h5>
+        <div class="objContainer">
+        <a href="javascript:void(0)" class="togglePip"><span class="green-text no-margin">Security Door</span><span class="scanBtn green-text">Scan</span></a>
+        </div>
+        <p></p>
+
+        <div class="nav">
+            <p class="green-text margin-5">There is also the hole where you dropped in from, but why would you turn back now?</p>
+            <ul>
+                <li><a href="theater.html" class="white-text btn custom">Hole leading to theatre</a></li>
+                <li><a href="javascript:void(0)" class="white-text btn custom" id="vaultDoor">Locked Vault Room Door</a></li>
+            </ul>
+        </div>
+    </div><!--contentContainer-->
+
+    <div class="pipContainer">
+        <img src="https://i.imgur.com/OePmvyL.png" width="600px" height="400px" class="pipBG">
+        <a href="javascript:void(0)" class="closePip"><span class="green-text">Close [X]</span></a>
+        <div class="contentContainer">
+            <h3 class="green-text no-margin pipTitle">Security Door</h3>
+            <p class="green-text no-margin pipText">Looks like this door has 2 layers of security. You'll need to enter a numerical code on the key pad and then use the iris scanner to open the door. But where are you going to get an eye that the scanner will recognize?</p>
+            <br class="show">
+            <a href="javascript:void(0)" class="enterCode"><span class="green-text">Enter Vault Room Door Code</span></a>
+            <br>
+            <a href="javascript:void(0)" class="useEye"><span class="green-text">Scan Polar Bear Eye</span></a>
+            <!--<div class="leftCol">-->
+                <!--&lt;!&ndash;<img src="https://i.imgur.com/LmNityQ.png" width="75%">&ndash;&gt;-->
+                <!--<img src="https://i.imgur.com/uArml2n.png" width="75%">-->
+            <!--</div>-->
+            <!--<div class="rightCol">-->
+                <!--<p class="green-text no-margin pipText">These burial urns were used to store the remains of the loyal polar bears who guarded this fortress. The carvings paintings on the urns indicate the bears’ preferred food. As you can see, most of them preferred the sacred nectar as their sustenance, but that one appears to have liked eating…</p>-->
+            <!--</div>-->
+            <!--<br class="show">-->
+            <!--<a href="javascript:void(0)" class="addUrn"><span class="green-text">Pick Up Urn</span></a>-->
+        </div>
+    </div><!--pipContainer-->
+
+</div><!--pageWrapper-->
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/myJs.js"></script>
+</body>
+</html>
