@@ -1,10 +1,4 @@
-(function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+//Initialize local storage variables that can be accessed across all pages
 if(localStorage.getItem("hasStarted") == null){
   localStorage.setItem("hasStarted", "true");
   localStorage.setItem("items", JSON.stringify(["Vault room door code", "Rope"]));

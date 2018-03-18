@@ -159,3 +159,12 @@ p.pipText{
     padding: 5px 15px;
     color: #66de7a;
 }
+.contentContainer::-webkit-scrollbar-track {
+    background-color: red;
+    border: 2px solid #66de7a;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #888;
+}
