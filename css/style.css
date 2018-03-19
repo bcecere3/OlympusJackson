@@ -168,3 +168,21 @@ p.pipText{
 body::-webkit-scrollbar-thumb {
     background: #888;
 }
+.guardContainer{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.guardContainer > img{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: auto;
+    display: block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.gColor{
+    opacity: 0;
+}

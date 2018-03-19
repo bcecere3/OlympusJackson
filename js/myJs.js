@@ -5,6 +5,13 @@ $(document).ready(function(){
     //Used to check/set various element states
     initPassage();
 
+    if($('.gColor').length){
+        console.log("op");
+        $('.gColor').animate({
+            opacity: 1
+        }, 5000, 'easeInExpo' );
+    }
+
     //Auto-hide pip on page change
     $('.pipContainer').animate({
         height: 'toggle'
